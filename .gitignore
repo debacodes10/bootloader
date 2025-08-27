@@ -1,0 +1,38 @@
+# Ignore all compiled binary files and images.
+# These are the output of your build process.
+*.bin
+*.o
+*.elf
+*.iso
+*.img
+
+# Ignore directories used for build output.
+# It's good practice to put all compiled files in a separate directory.
+/build/
+/bin/
+/dist/
+
+# Ignore emulator and debugger log files.
+# Bochs log file
+bochsout.txt
+# Generic log files
+*.log
+
+# Ignore common editor and IDE temporary files.
+# Vim
+*.swp
+*~
+*.swo
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+
+# Ignore OS-specific metadata files.
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
